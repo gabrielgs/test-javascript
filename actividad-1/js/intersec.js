@@ -1,5 +1,5 @@
 // Función para comprobar si los rectangulos se intersecan o no
-function intersecRecr(r1, r2) {
+function intersecRec(r1, r2) {
    /*** Rectangulo 1 ***/
   var x1 = r1.x; // Valor de x
   // Valor del vertice superior derecho que se calcula
