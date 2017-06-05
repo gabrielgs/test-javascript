@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rectangulos se intersecan</title>
+</head>
+<body>
+  <main class="main">
+    <section class="container">
+      <article class="rect">
+        <h2>Rectangulo 1</h2>
+        <input type="text" id="js-rect1X" placeholder="Coordenada x">
+        <input type="text" id="js-rect1Y" placeholder="Coordenada y">
+        <input type="text" id="js-rect1W" placeholder="Width">
+        <input type="text" id="js-rect1H" placeholder="Height">
+      </article>
+
+      <article class="rect">
+        <h2>Rectangulo 2</h2>
+        <input type="text" id="js-rect2X" placeholder="Coordenada x">
+        <input type="text" id="js-rect2Y" placeholder="Coordenada y">
+        <input type="text" id="js-rect2W" placeholder="Width">
+        <input type="text" id="js-rect2H" placeholder="Height">
+      </article>
+
+      <input type="button" id="js-btnCheck" class="btn" value="Comprobar">
+
+    </section>
+
+    <section id="js-containerCanvas" class="container draw">
+      <h2 id="js-canvasTitle"></h2>
+      <canvas id="canvas" widht="300px" height="300px"></canvas>
+    </section>
+  </main>
+  <script src="./js/intersec.js"></script>
+</body>
+</html>
