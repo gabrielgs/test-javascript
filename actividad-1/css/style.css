@@ -40,6 +40,12 @@ h2 {
   border-radius: 2px;
 }
 
+.rect input {
+  color: #72BDA3;
+  border-radius: 2px;
+  padding: 10px;
+}
+
 .btn {
   border: 2px solid #72BDA3;
   background: #395E66;
